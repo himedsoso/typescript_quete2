@@ -12,7 +12,7 @@ const prettyPrintWilder = (users : user[]) => {
   }
 
   let user1 : user = { name: "Pierre", age: 23 };
-  const user2 : user = { name: "Paul", birthday: "10/02/1990" };
+  const user2 : user = { name: "Paul", age: "10/02/1990" };
   const user3 : user = { name: "Jacques", age: 25 };
   wilders.push(user1);
   wilders.push(user2);
